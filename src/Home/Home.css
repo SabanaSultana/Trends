@@ -1,34 +1,55 @@
-.home{
+/* Home.css */
+.home {
   background: linear-gradient(to bottom, #bae4f9, white);
-  height:100vh;
-  display:flex;
+  height: 100vh;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 20px;
-  
 }
-
 
 .heading {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start;
   text-align: left;
   margin-bottom: 20px;
 }
 
 .heading div {
-  margin-left: 25px; 
+  margin-left: 25px;
 }
 
 .heading div:first-child {
-  font-size:15px; 
-  color:rgb(1, 16, 21);
+  font-size: 15px;
+  color: rgb(1, 16, 21);
 }
 
 .heading div:not(:first-child) {
-  font-size: 55px; 
-  color:rgb(1, 16, 21);
+  font-size:55px;
+  color: rgb(1, 16, 21);
+}
+
+/* Ensure buttons have their specific styles */
+.heading .btn {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.heading .btn button {
+  background-color: rgb(44, 103, 135);
+  padding: 7px 17px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 16px; /* Add specific font size */
+  border: none; /* Remove any default borders */
+  border-radius: 5px; /* Add border radius for a better look */
+}
+
+.heading .btn button:hover {
+  background-color: black;
+  color: white;
 }
 
 .heading span {
@@ -40,53 +61,26 @@
   vertical-align: middle;
 }
 
-.handimg{
-  width:40px;
-  height:50px;
-}
-.heading .btn {
-  display: flex;
-  gap: 10px;
-  margin-top: 15px;
-}
-.heading button {
-  background-color: rgb(28, 55, 70);
-  padding: 7px 17px;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-
+.handimg {
+  width: 40px;
+  height: 50px;
 }
 
-.heading button:hover {
-  background-color: black;
-  color: white;
-}
-/* 
 .images {
-display: flex;
-justify-content: center;
-}
-
-.images img {
-max-width: 100%;
-height: auto;
-border: 2px solid black;
-} */
-
-.images{
   background-image: url('../assets/HomeHeaderImgs/image1.png');
   background-size: 100% 100%;
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 400px;
   animation: slider 9s infinite linear;
-
+  margin-bottom: 50px;
 }
+
 @keyframes slider {
   0%, 20% {
-    background-image: url('../assets/HomeHeaderImgs/image5.png');
+    background-image: url('../assets/HomeHeaderImgs/image2.png');
   }
   25%, 45% {
-    background-image: url('../assets/HomeHeaderImgs/image2.png');
+    background-image: url('../assets/HomeHeaderImgs/image5.png');
   }
   50%, 70% {
     background-image: url('../assets/HomeHeaderImgs/image3.png');

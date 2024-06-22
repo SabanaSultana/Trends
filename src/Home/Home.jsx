@@ -25,7 +25,6 @@ function Home() {
         </div>
         <div className="images">
             {/* This div is for image sliding, image added in css */}
-            Hello
         </div>
     </div>
   )

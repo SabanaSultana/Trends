@@ -1,35 +1,26 @@
-import { useState } from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navs from './Navigation Menu/Navs';
-import Home from './Pages/Home'
-import About from './Pages/About'
-import Contact from './Pages/Contact'
-import Home2 from './Home/Home'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.css'
-
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Header from './Pages/Header';
+import './App.css';
 
 function App() {
-  
-
   return (
     <div className='App'>
-
-        <div>
-          <Navs/>
-          <Home2/>
-        </div>
-        <div>
+      <div>
+        <Navs />
+      </div>
+      <div>
           <Routes>
-            <Route exact path="/" element={<Home/>} />
-            <Route exact path="/about" element={<About/>} />
-            <Route exact path="/contact" element={<Contact/>} />
+            <Route exact path="/" element={<Header />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/contact" element={<Contact />} />
           </Routes>
-        </div>
-
-      
+      </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -23,7 +23,7 @@ function Navs() {
         </ul>
       </div>
       <div className="login">
-        <div className='login-signup'>
+        <div>
           <Link to="/login">
                 <button className='login-signup'>SignUp/Login</button>
           </Link>

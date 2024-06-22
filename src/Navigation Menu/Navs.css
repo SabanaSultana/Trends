@@ -41,11 +41,17 @@
     display: flex;
     align-items: center;
     gap: 25px;
+    color:black;
   }
   .login-signup{
+    border: 1px solid black;
     border-radius:50px;
     padding:8px 16px;
     background:white;
+    color: black;
+  }
+  .login-signup :hover{
+    background:rgb(5, 39, 53);
   }
   .cart-icon {
     font-size: 24px;
