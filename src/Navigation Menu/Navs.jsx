@@ -5,7 +5,7 @@ import './Navs.css';
 
 function Navs() {
   return (
-    <div className="navbar">
+    <div className="navbar sticky-nav">
       <div className="logo">
         Trendy Threads
       </div>

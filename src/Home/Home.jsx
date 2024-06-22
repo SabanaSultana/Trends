@@ -2,15 +2,16 @@ import React from 'react'
 import './Home.css'
 // import HomeImg from './assets/Home header imgs/home img1.png'
 import HandImage from '../assets/HomeHeaderImgs/wavingHand.png'
+import Cards from './Cards'
 
 function Home() {
   return (
+    <>
     <div className='home'>
         <div className="heading">
             <div>NEW ARRIVALS ONLY</div>
-            <div className='img-new'>
-                <span>new</span>
-                <img src={HandImage} alt="Error Loading image" className='handimg' />
+            <div>
+                new 
             </div>
             <div>
                 collections
@@ -27,6 +28,10 @@ function Home() {
             {/* This div is for image sliding, image added in css */}
         </div>
     </div>
+    <div>
+        <Cards/>
+    </div>
+    </>
   )
 }
 

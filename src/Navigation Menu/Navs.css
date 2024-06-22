@@ -4,7 +4,15 @@
     align-items: center;
     padding: 10px 20px;
     color: black;
+    border: 2px solid red;
+    background:white;
   }
+ .sticky-nav{
+  position: fixed;
+  width: 100%;
+  left:0;
+  top:0;
+ }
   
   .logo {
     font-size: 30px;

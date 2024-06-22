@@ -6,6 +6,8 @@
   justify-content: space-around;
   align-items: center;
   padding: 20px;
+  margin-top: 20px;
+  
 }
 
 .heading {
@@ -24,13 +26,12 @@
   font-size: 15px;
   color: rgb(1, 16, 21);
 }
-
+ 
 .heading div:not(:first-child) {
   font-size:55px;
   color: rgb(1, 16, 21);
 }
 
-/* Ensure buttons have their specific styles */
 .heading .btn {
   display: flex;
   gap: 10px;
@@ -42,9 +43,9 @@
   padding: 7px 17px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
-  font-size: 16px; /* Add specific font size */
-  border: none; /* Remove any default borders */
-  border-radius: 5px; /* Add border radius for a better look */
+  font-size: 16px; 
+  border: none;
+  border-radius: 5px; 
 }
 
 .heading .btn button:hover {
