@@ -1,0 +1,24 @@
+.home{
+    background: linear-gradient(to bottom, #cdeefc, white);
+    height:100vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* 
+.heading {
+    flex: 1; 
+    padding-right: 20px; 
+    background-color: white; 
+  }
+  
+  .images {
+    flex: 1; 
+    padding-left: 20px; 
+    background-color: white; 
+  }
+  
+  .images img {
+    max-width: 100%; 
+  } */
